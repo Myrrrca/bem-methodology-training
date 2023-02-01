@@ -95,6 +95,7 @@
 
 .about {
   height: 491px;
+  background-color: #F6F8FA;
 }
 
 .about__inner {
@@ -122,9 +123,6 @@
   top: 15px;
 }
 
-.about__title {
-}
-
 .about__text {
   display: flex;
   flex-flow: column nowrap;
@@ -144,4 +142,16 @@
 
 .about__text p:last-child {
   margin-bottom: 0px;
+}
+
+.expertise {
+  height: 877px;
+}
+
+.expertise__title {
+  padding-top: 145px;
+}
+
+.expertise__content {
+  padding-top: 90px;
 }
